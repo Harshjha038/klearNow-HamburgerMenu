@@ -1,0 +1,64 @@
+.ui.basic.button.dropdown{border:1px solid #85b7d9 !important}.ua-container{background:#f5f5f5;padding:30px 0px 0px 45px;
+    height:100vh !important;width:calc(100% - 400px);
+    margin-left:400px !important}
+    .ua-grid{justify-content:center}
+    .card-icon{font-size:20px !important;color:#c9c9c9;font-weight:10 !important;margin:0px !important;transition:.2s ease}
+    .card-icon:hover{color:red !important;opacity:.8;cursor:pointer}.card-container{padding-top:10px;padding-right:10px;display:inline-block;justify-content:space-around}
+    .ui.icon.input>i.icon{width:30px !important}
+    .user-card{margin:-10px;width:312px !important;height:164px !important;border-radius:2px !important;transition:.2s ease;cursor:pointer}
+    .user-card:hover{background-color:#e8f5ff !important;box-shadow:0 0 2px 2px #379BFF !important}
+    .ua.date{float:right}.ua.popup-form{height:85vh;width:355px !important;position:fixed !important;bottom:20px;right:20px;background:white;padding:80px 35px 35px !important;margin-top:20px !important;border-radius:6px;box-shadow:0 1px 20px 0 rgba(0,0,0,0.2)}
+    .ua.popup-form .popupErrorMessage{width:285px}.ua.circle{display:block;width:100px;height:50px;top:0px;left:40%;overflow:hidden;position:absolute}
+    .ua.form-image{position:absolute;left:41%;top:-39px;width:80px;box-shadow:0 1px 20px 0 rgba(0,0,0,0.2)}
+    .ua.popup-header{
+        /* margin-top:-20px !important; */
+        text-align:center;
+        font-weight:80 !important}
+    .ua.create-user-input{height:42px !important;
+        /* margin-bottom:-10px!important; */
+        /* padding-top:20px !important; */
+        
+        border:1px solid #85b7d9 !important;}
+    .ua.create-user-phonefield{border-color:#85b7d9 !important;height:44px !important}
+    .ua.create-user-dropdown{height:40px !important;margin-bottom:-5px !important;padding-top:15px !important;border:1px solid #85b7d9 !important}
+    .ua.formDropdown{padding-top:20px !important;height:62px !important}.ua.create-user-label{position:absolute !important;font-size:10px !important;left:10px;margin-top:2px;margin-bottom:2px;color:grey !important}.ua.deleteButton{font-size:12px;color:#379bff;background:transparent;border:0px}.ua.cardButton{height:15px !important;background:#379bff !important;border-radius:14px !important;border:0px !important;color:white;font-size:10px;text-align:center !important}.ua.cancel{width:177.5px;height:40px;border-radius:0px 0px 0px 4px !important}.ua.save{width:177.5px;height:40px;border-radius:0px 0px 4px 0px !important}#toggled-card{background-color:#e8f5ff;box-shadow:0 0 2px 2px #379bff !important}.ui.toggle.checkbox input:checked ~ .box:before,.ui.toggle.checkbox input:checked ~ label:before{background-color:#58d021 }.ui.toggle.checkbox input:checked ~ .box:before,.ui.toggle.checkbox input:checked ~ label:before{background-color:#58d021 }.ui.toggle.checkbox input:focus:checked ~ .box:before,.ui.toggle.checkbox input:focus:checked ~ label:before{background-color:#58d021 }.ui.checkbox{margin:5px 2px 0px 2px}.popup-pagination{position:fixed;bottom:20px;width:425px;margin-left:-35px;height:40px}.ua-add-user{position:fixed;bottom:30px;right:30px}.ui.card>.content,.ui.cards>.card>.content{padding:12px !important}.form-scroller{position:fixed;height:58vh;overflow-y:scroll;overflow-x:hidden}body ::-webkit-scrollbar{-webkit-appearance:none;width:0px !important;height:10px}.create-user-input{display:flex;flex-direction:column-reverse}
+    .create-user-input label{position:absolute !important;font-size:14px !important;font-weight:100;left:10px;
+        /* margin-top:-20px !important; */padding-bottom: 13px;
+        color:grey !important;transform-origin:top left;transform:translate(0, 16px) scale(1);transition:all 0.1s ease-in-out}.create-user-input input,.create-user-input select,.create-user-input textarea{height:42px !important;width:285px !important;margin-bottom:-5px !important;padding-top:20px !important;border:1px solid #85b7d9 !important}.create-user-input input:focus+label,.create-user-input input:valid+label,.create-user-input select:focus+label,.create-user-input select:valid+label,.create-user-input textarea:focus+label,.create-user-input textarea:valid+label{transform:translate(0, 4px) scale(0.75)}.statusText{position:absolute !important;font-size:10px !important;left:10px;margin-top:5px !important;color:grey !important}.status{margin-left:50px !important;margin-bottom:-5px !important;margin-right:15px !important}.ui.selection.visible.dropdown>.text:not(.default){color:white !important}.ui.selection.dropdown>.delete.icon,.ui.selection.dropdown>.dropdown.icon,.ui.selection.dropdown>.search.icon{margin:-10px 10px 0 0 !important}.authorizeText{font-size:10px;text-transform:uppercase}.create-user-field{width:285px !important}.privilegeList{width:419px !important}.privilegeListRow{padding-top:0px !important;padding-bottom:0px !important}.manage-users-div{position:absolute;left:350px;top:95px;display:flex;flex-direction:column;height:calc(100vh - 60px - 5vh)}.manage-users-div .manage-users-header{padding-left:15px;font-size:24px !important;font-weight:400}.manage-users-div .manage-users-content{display:flex;flex:1;overflow-y:auto;padding-left:15px}
+        .DOprefrences{
+          margin-top: 15px;
+          display: block;
+        }
+        .DObox{
+          background: rgb(255, 255, 255);
+          padding: 15px;
+        }
+        .DOcheck{
+          padding-left: 100px;
+        }
+        .DOradiogroup{
+          margin-top: 10px;
+        }
+        .DOradio{
+          padding-left: 25px;
+        }
+        .submitButton{
+          /* margin-top: 400px; */
+          margin-right: 50px;
+        }
+        .editButton{
+          margin-right: 20px;
+        }
+
+
+#scrollbarManageUsers::-webkit-scrollbar{
+  width: 10px !important;
+}
+
+#scrollbarManageUsers::-webkit-scrollbar-track{
+  margin-top:50px;
+}
+
+.manageTextscroll{
+  width:calc(100% - 330px)
+}

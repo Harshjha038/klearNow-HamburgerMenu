@@ -1,0 +1,70 @@
+@import "./_media.scss";
+
+$green: #23B80B;
+$teal: #0AB88A;
+$orange: #F5A623;
+$red: #D0021B;
+$kn-teal: #267678;
+$kn-dark-teal: #0c2735;
+$b_default: #C4C4C4;
+$white:#FFFFFF;
+$black:#000000;
+$mediumBlack: #4A4A4A;
+$lightBlack: #999999;
+$skyBlue:#5D72FF;
+$skyBlueDark:#2E42C5;
+$gray: #AAAAAA;
+$grayLite: #DEDEDE;
+$grayLiteMedium: #cccccc;
+$grayMedium: #656565;
+$blue:#369aff;
+$selection-blue: #e8f5ff;
+$light-blue: #EBF2FB;
+$dark-blue: #379BFF;
+$opaque-blue: #379bff66;
+$progress-green: rgb(90, 213, 109);
+$background-gray: #f6f6f6;
+$font-gray: #9b9b9b;
+$shipTileBorder: rgba(151,151,151,0.34);
+$shipTile: #379BFF;
+$container-teal: #0a8b8f;
+$shipment-blue: rgb(12, 143, 147);
+
+.highlight {
+  border-color:$shipTile !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+@mixin border-radius($property) {
+    border-radius: ($property);
+    -webkit-border-radius: ($property);
+    -moz-border-radius: ($property);
+}
+
+@mixin box-shadow($property) {
+    box-shadow: ($property);
+    -webkit-box-shadow: ($property);
+    -moz-box-shadow: ($property);
+}
+@mixin  transform ($property){
+    transform: ($property);
+    -webkit-transform: ($property);
+    -moz-transform: ($property);
+    -ms-transform: ($property);
+}
+
+@mixin color {
+  background-color: $green;
+  &.green {
+    background-color: $green
+  }
+  &.orange {
+    background-color: $orange;
+  }
+  &.red {
+    background-color: $red;
+  }
+}

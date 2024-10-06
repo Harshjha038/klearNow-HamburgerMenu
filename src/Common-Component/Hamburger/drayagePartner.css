@@ -1,0 +1,260 @@
+.drayage-conainer-company-profile {
+  border: 1px solid #2e71b5;
+  border-radius: 2px;
+  margin-left: 10px;
+  width: "80%";
+}
+
+.input-company-profile-corpName {
+  height: 44px;
+  background-color: rgba(255, 217, 218, 0.5);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(34, 36, 38, 0.15);
+  border-radius: 0px;
+  padding: 0.5em;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.7);
+  /* font-size: 1em; */
+  margin-top: 5px;
+  font-weight: 600;
+  letter-spacing: 1.71px;
+  line-height: 28px;
+}
+
+.corp-name-input-container .close.icon {
+  display: none !important;
+}
+
+.company-profile-image {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  height: 110px;
+  max-width: 354px;
+  width: 95%;
+  border-radius: 2px;
+  background-color: #ebedf0;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-profile-button {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  height: 46px;
+  max-width: 246px;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.company-profile-textinput-header {
+  color: #606060;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.company-profile-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.company-profile-flex-row .close.icon {
+  display: none;
+}
+
+.company-profile-text-input-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 49.2%;
+}
+
+.company-profile-text-input-conatiner .ui.selection.visible.dropdown > .text:not(.default) {
+  color: rgba(0,0,0,0.8) !important;
+}
+
+.company-profile-text-input {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  height: 19px;
+  color: #000000 !important;
+  letter-spacing: 1.14px;
+  margin-top: 2px;
+  height: auto !important;
+  padding: 0px 2px !important;
+  border: none !important;
+}
+
+.company-profile-text-input-trucks-drivers {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 1.14px;
+  margin-top: 0px;
+  height: auto !important;
+  padding: 0px !important;
+  border: none !important;
+  margin-left: 5px;
+}
+
+.contact-detail-role .close.icon {
+  display: none;
+}
+
+.contact-detail-button {
+  display: flex;
+  align-items: center;
+  background-color: "#FFFFFF";
+  border-width: 0px;
+}
+
+/* .drayage-cp-container {
+  margin-top: 60px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 4%;
+  box-shadow: 0 0 2px #999;
+  min-height: 100vh;
+  overflow-y: scroll !important;
+} */
+
+.contact-details-text-input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000000;
+  letter-spacing: 1.14px;
+  margin-top: 0px;
+  padding: 0px !important;
+  height: auto !important;
+  border: none !important;
+}
+
+.contact-detail-dropdown {
+  min-height: auto !important;
+  padding: 5px !important;
+  padding-left: 0px !important;
+  margin-left: 8px;
+  border-radius: 0px !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: "#000000";
+}
+
+.contact-detail-dropdown .dropdown.icon {
+  padding-top: 5px !important;
+}
+
+.pricing-text-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-width: 1px;
+  border-style: solid;
+  border-color: #d4d4d4;
+}
+
+.pricing-text-input {
+  width: 100%;
+	height: auto !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  color: #606060;
+  padding: 0px 10px !important;
+}
+
+.pricing-text-input:focus {
+  box-shadow: 0 0 0px #719ece;
+}
+
+.pricing-dropdown {
+	width: 100%;
+  min-width: auto !important;
+  min-height: auto !important;
+  padding: 1px !important;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0px !important;
+  border: 2px #286084 solid !important;
+	border-left: 0px !important;
+}
+
+.pricing-text-input-container .close.icon {
+  display: none;
+}
+
+.ui.selection.visible.dropdown>.text:not(.default) {
+	margin-top: 0px !important;
+}
+
+.pdf-view {
+  padding: 5px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  min-height: 728px;
+}
+
+.pricing-dropdown-container {
+  position: relative;
+  width: 18%;
+  min-width: 100px;
+}
+
+.price-item-remove {
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 22px;
+}
+.price-item-remove::before,
+.price-item-remove::after {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  content: " ";
+  height: 17px;
+  width: 2px;
+  background-color: #333;
+}
+.price-item-remove::before {
+  transform: rotate(45deg);
+}
+.price-item-remove::after {
+  transform: rotate(-45deg);
+}
+.price-item-remove:hover::before,
+.price-item-remove:hover::after {
+  background-color: #d8000c;
+}
+
+.drayage-pricing-container {
+  margin: 1px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 2%;
+  box-shadow: 0 0 2px #999;
+  min-height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  margin-top: 60px;
+}
+
+.show_document{
+margin-left: 30px;
+}

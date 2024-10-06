@@ -1,0 +1,693 @@
+.ui.basic.button.dropdown {
+    border: 0.5px solid #85b7d9 !important;
+    /* border-right: 7px solid #85b7d9 !important; */
+  }
+  .background-col {
+    background-color: white !important;
+  }
+  .ua-container {
+    padding-top: 90px;
+    background: white;
+    padding-bottom: 80px;
+  }
+  .card-icon:hover {
+    color: #379bff !important;
+  }
+  .ua.kx-header-logo {
+    position: relative;
+    width: 20%;
+    max-width: 200px !important;
+  }
+  .ua.header {
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 80px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10 !important;
+    margin-left: 0rem !important;
+    padding: 10px 30px;
+  }
+  .ua.header-user-container {
+    display: flex;
+    width: 33%;
+  }
+  .ua.filter {
+    background-color: white transparent;
+    /* position: fixed; */
+    z-index: 1;
+    /* width: 510px; */
+    width: 100%;
+    display: flex;
+    padding-left: 0%;
+    margin-left: 4vw;
+    margin-top: 15px
+    /* margin: 0 auto; */
+  }
+  .ua.searchbar {
+    width: 180px !important;
+    height: 38.1px;
+  }
+  .ua.searchbar.ui.input {
+    border-radius: 0 4px 4px 0 !important;
+  }
+  .ua.searchbar.ui.icon.input > input {
+    border-radius: 0 4px 4px 0 !important;
+    border-color: #85b7d9 !important;
+  }
+  .ua .ui.input > input {
+    border-color: #85b7d9 !important;
+    margin-left: -10px !important;
+    border-radius: 0 4px 4px 0 !important;
+  }
+  .ua.header-dropdown {
+    background: #008B8F !important;
+    /* min-width: 160px !important; */
+    width: 170px !important;
+    border-radius: 4px !important;
+    color: white !important;
+    padding-top: 14px !important;
+  }
+  .ua.header-dropdown2 {
+    background: #008B8F !important;
+    /* min-width: 160px !important; */
+    width: 170px !important;
+    border-radius: 4px !important;
+    color: white !important;
+    padding-top: 14px !important;
+    margin-right: 20px
+  }
+  .ua.user-header {
+    display: flex;
+    width: 23%;
+    justify-content: flex-end;
+  }
+  .ua.header-user {
+    padding-top: 25px;
+    padding-right: 14px;
+  }
+  .ua.user-dropdown {
+    margin: 20px 10px 0 0;
+  }
+  .ua.user-img {
+    margin-top: 15px;
+  }
+  .ua.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: flex-start;
+  }
+  .ua.card-header {
+    display: flex;
+    height: 45px;
+  }
+  .ua.card-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ua .card-container {
+    padding: 5px !important;
+  }
+  .ua.card-icon {
+    font-size: 20px !important;
+    color: #c9c9c9;
+    margin-right: -50px !important;
+    margin-left: 35%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .ua.phone-container {
+    width: 100%;
+    display: flex;
+    margin: -20px 0 20px 0;
+  }
+  .ua.create-user-phone {
+    width: 80% !important;
+  }
+  .ua.add-phone {
+    margin: 20px 0 20px 0 !important;
+  }
+  .ua .ui.input > input {
+    padding-bottom: 10px !important;
+  }
+  .ua-header-bars {
+    padding-top: 10px;
+  }
+  .ua-header-columns {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .ua-header-image {
+    padding-top: 14px;
+    padding-right: 24px;
+  }
+  .delete-search {
+    font-size: 17px !important;
+    color: #c9c9c9;
+    margin-left: -2px;
+  }
+  .delete-search:hover {
+    color: #379bff !important;
+    height: 18px;
+    width: 18px;
+  }
+  .ui.icon.input > i.icon {
+    width: 30px !important;
+  }
+  .user-card {
+    margin: -10px;
+    width: 312px !important;
+    height: 164px !important;
+    border-radius: 2px !important;
+  }
+  .ua.header-buttons {
+    margin: auto;
+    padding-left: 20%;
+    width: 100%;
+    max-height: 80px;
+  }
+  .ua.date {
+    float: right;
+  }
+  .ua.popup-form {
+    /* height: 80vh; */
+    width: 49%;
+    position: absolute;
+    top:'10%';
+    z-index: 1;
+    padding: 24px 35px 35px !important;
+    /* height: 80vh;
+    width: 355px !important;
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    padding: 80px 35px 35px !important;
+    margin-top: 20px !important;
+    border-radius: 6px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2); */
+  }
+  .ua.circle {
+    display: block;
+    width: 100px;
+    height: 50px;
+    top: 0px;
+    left: 40%;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ua.form-image {
+    margin-top: 0%;
+    position: relative;
+    left: 3%;
+    top: 1%;
+    width: 80px !important;
+    height: 80px !important;
+    box-shadow: 0 1px 20px 0 rgb(0 0 0 / 20%);
+  }
+  .ua.popup-header {
+    margin-top: -20px !important;
+    text-align: center;
+    font-weight: 80 !important;
+  }
+  .ua.create-user-input {
+    width: 285px !important;
+    height: 42px !important;
+    margin-bottom: -5px !important;
+    padding-top: 20px !important;
+    font-weight: 550 !important;
+  }
+  .ua.create-user-phone {
+    border-color: #85b7d9 !important;
+    height: 44px !important;
+  }
+  .ua.create-user-phone-readonly {
+    border: 0px !important;
+    height: 44px !important;
+  }
+  .ua.phone-dropdown text {
+    font-weight: 550px !important;
+    color: black !important;
+  }
+  .ua.create-user-dropdown {
+    height: 40px !important;
+    margin-bottom: -5px !important;
+    padding-top: 15px !important;
+  }
+  .ua.create-user-dropdown text {
+    font-weight: 550px !important;
+    color: black !important;
+  }
+  .ua.formDropdown {
+    padding-top: 20px !important;
+    height: 62px !important;
+    width: 285px !important;
+  }
+  .ua.create-user-label {
+    position: absolute !important;
+    font-size: 10px !important;
+    left: 14px;
+    text-transform: uppercase !important;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: grey !important;
+  }
+  .ua.create-user-phone-label {
+    position: absolute !important;
+    font-size: 10px !important;
+    left: 0px !important;
+    text-transform: uppercase !important;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: grey !important;
+  }
+  .ua.users {
+    color: #979797;
+    height: 50px !important;
+    margin-bottom: -5px !important;
+    border: 1px solid #85b7d9 !important;
+    background: white !important;
+    width: 50% !important;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .ua.users.total-shipment {
+    height: 38px !important;
+  }
+  .ua.shipments {
+    color: #979797;
+    height: 50px !important;
+    margin-bottom: -5px !important;
+    border: 1px solid #85b7d9 !important;
+    background: white !important;
+    width: 50% !important;
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+  }
+  .ua.shipmentButton {
+    height: 15px !important;
+    background: #379bff !important;
+    border-radius: 14px !important;
+    border: 0px !important;
+    color: white;
+    font-size: 10px;
+  }
+  .ua.userText {
+    margin-bottom: 5px !important;
+  }
+  .ua.cardButton {
+    height: 15px !important;
+    background: #379bff !important;
+    border-radius: 14px !important;
+    border: 0px !important;
+    color: white;
+    font-size: 10px;
+    text-align: center !important;
+  }
+  .ua.deleteButton {
+    font-size: 12px;
+    color: #379bff;
+    background: transparent;
+    border: 0px;
+  }
+  .ua.shipmentText {
+    font-size: 12px;
+    color: "#f7f7f7";
+  }
+  .ua.cancel {
+    width: 177.5px;
+    height: 40px;
+    border-radius: 0px 0px 0px 4px !important;
+  }
+  .ua.save {
+    width: 177.5px;
+    height: 40px;
+    border-radius: 0px 0px 4px 0px !important;
+  }
+  .selected-card {
+    background-color: #e8f5ff !important;
+    box-shadow: 0 0 2px 2px #379bff !important;
+  }
+  .ui.toggle.checkbox input:checked ~ .box:before,
+  .ui.toggle.checkbox input:checked ~ label:before {
+    background-color: #58d021 ;
+  }
+  .ui.toggle.checkbox input:checked ~ .box:before,
+  .ui.toggle.checkbox input:checked ~ label:before {
+    background-color: #58d021 ;
+  }
+  .ui.toggle.checkbox input:focus:checked ~ .box:before,
+  .ui.toggle.checkbox input:focus:checked ~ label:before {
+    background-color: #58d021 ;
+  }
+  .ui.checkbox {
+    margin: 2px;
+  }
+  .popup-pagination {
+    width: 425px;
+    margin-left: -35px;
+    height: 40px;
+  }
+  .ua-add-user {
+    bottom: 30px;
+    right: 30px;
+   
+  }
+  .add-user-button{
+    position: absolute;
+    top: 11%;
+    left: 38%;
+    padding: 16px 40px !important;
+    border-radius: 0px 6px 6px 0px ;
+    background-color: rgb(0, 139, 143)!important;
+    font-weight: 100;
+  }
+  .ui.card > .content,
+  .ui.cards > .card > .content {
+    padding: 12px !important;
+  }
+  .form-scroller {
+    height: 58vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  body ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0px !important;
+    height: 10px;
+  }
+  .create-user-input {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .create-user-input label {
+    position: relative !important;
+    font-size: 14px !important;
+    font-weight: 20;
+    font-style: italic;
+    left: 14px;
+    top: 25px;
+    margin-top: -20px !important;
+    color: #8a8a8a !important;
+    transform-origin: top left;
+    transform: translate(0, 16px) scale(1);
+    transition: all 0.1s ease-in-out;
+  }
+  .create-user-input input,
+  .create-user-input select,
+  .create-user-input textarea {
+    height: 42px !important;
+    margin-bottom: -5px !important;
+    padding-top: 20px !important;
+    margin-left: 0px !important;
+    border: 1px solid #85b7d9 !important;
+    font-weight: 550 !important;
+  }
+
+  .create-user-input #driversLicenseState{
+    height: 42px !important;
+    margin-bottom: -5px !important;
+    padding-top: 20px !important;
+    margin-left: 0px !important;
+    border: 1px solid #85b7d9 !important;
+    font-weight: 550 !important;
+  }
+  .create-user-input input:focus + label,
+  .create-user-input input:valid + label,
+  .create-user-input select:focus + label,
+  .create-user-input select:valid + label,
+  .create-user-input textarea:focus + label,
+  .create-user-input textarea:valid + label {
+    transform: translate(0, 4px) scale(0.75);
+    text-transform: uppercase !important;
+    font-style: normal !important;
+  }
+  .statusText {
+    position: absolute !important;
+    font-size: 10px !important;
+    left: 0px;
+    margin-top: 5px !important;
+    color: grey !important;
+    text-transform: uppercase !important;
+  }
+  .activeText {
+    position: absolute !important;
+    font-size: 10px !important;
+    margin-top: 5px !important;
+  }
+  .status {
+    margin-left: 58px !important;
+    margin-bottom: -5px !important;
+    margin-right: 15px !important;
+  }
+  .ui.selection.visible.dropdown > .text:not(.default) {
+    color: white !important;
+    margin-top: 2px !important;
+  }
+  .card-data {
+    color: #423f3f !important;
+  }
+  .card-date-header {
+    font-size: 12px !important;
+  }
+  .ui.card > .content,
+  .ui.cards > .card > .content {
+    cursor: default;
+  }
+  .create-user-input-readonly {
+    display: flex;
+    flex-direction: column-reverse;
+    cursor: default !important;
+  }
+  .create-user-input-readonly label {
+    position: static !important;
+    padding-left: 1.2rem !important;
+    font-size: 14px !important;
+    font-weight: 20;
+    font-style: italic;
+    left: 14px;
+    margin-top: -20px !important;
+    color: #8a8a8a !important;
+    transform-origin: top left;
+    transform: translate(0, 16px) scale(1);
+    transition: all 0.1s ease-in-out;
+  }
+  .create-user-input-readonly input,
+  .create-user-input-readonly select,
+  .create-user-input-readonly textarea {
+    height: 42px !important;
+    margin-bottom: -5px !important;
+    padding-top: 20px !important;
+    margin-left: 0px !important;
+    border: 0px !important;
+    font-weight: 550 !important;
+    width: 285px !important;
+    cursor: default !important;
+  }
+  .create-user-input-readonly input:focus + label,
+  .create-user-input-readonly input:valid + label,
+  .create-user-input-readonly select:focus + label,
+  .create-user-input-readonly select:valid + label,
+  .create-user-input-readonly textarea:focus + label,
+  .create-user-input-readonly textarea:valid + label {
+    transform: translate(0, 4px) scale(0.75);
+    text-transform: uppercase !important;
+    font-style: normal !important;
+  }
+  .invisible-card {
+    height: 164px !important;
+    width: 312px !important;
+    margin: 5px !important;
+    background: #f5f5f5 !important;
+    border: 0px !important;
+    box-shadow: none !important;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+  .clickCursor {
+    cursor: pointer !important;
+  }
+  .image-upload {
+    color: #379bff !important;
+  }
+  .ui.basic.button.dropdown {
+    height: 42px;
+  }
+  .KXname {
+    font-size: 14px !important;
+  }
+  .Search-bar{
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    margin-top: -11px;
+    width: 100%;
+  }
+  .UaClose{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    padding: 10px;
+  }
+  
+/* Company Profile */
+.company-profile-input{
+  background: #FFF;
+  border: none;
+  height: 24px;
+  width: 100%;
+  line-height: 24px;
+}
+
+.cp-container {
+  margin: 1px;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 2%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.cp-header{
+  position: relative;
+}
+
+.cp-title{
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.cp-alert{
+  /* position: absolute; 
+  top: -8;
+  right: 0;
+  width: 70%;
+  height: 20px;  */
+  margin-top: -12px;
+  margin-bottom: 12px;
+}
+
+.cp-inputs-group{
+  
+}
+
+.cp-gap{
+  margin-top: 32px;
+}
+
+.cp-status{
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.cp-status{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.cp-active{
+  padding-left: 24px;
+  padding-right: 12px;
+}
+
+.cp-input{
+  padding-top: 24px;
+  height: 60px;
+}
+
+.cp-flex{
+  display: flex;
+}
+
+.cp-dropdown-label{
+  font-size: 12px;
+  padding: 2px 8px;
+  color: #808080;
+}
+
+.cp-dropdown{
+  border: 1px solid #dededf;
+  width: 180px;
+}
+
+.cp-dropdown-select{
+  width: 100%;
+  padding: 8px;
+}   
+.dropdown-color-pref {
+  background-color: #008B8F !important;
+  width: 154px;
+  color: #fff;
+} 
+.dropdown-color-pref .visible.menu.transition{
+  width: 154px;
+}
+.dropdown-color-pref .default.text{
+  color: #fff !important;
+}
+.dropdown-color-pref.ui.dropdown{padding-right: 20px;}
+.dropdown-color-pref.ui.dropdown .icon{width: auto;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);}
+.profile-update-button{
+  padding:12px 40px;
+  font-size:12px;
+  background-color:'#008B8F';
+  color:'#fff';
+  border-radius:0
+}
+.BrokerAssignment{
+  margin-top: 20px;
+  display: flex;
+}
+.ShipmentID{
+  margin-right: 15px;
+}
+.Broker{
+  margin-left: 30px;
+  margin-right: 15px;
+}
+.BAradio{
+  margin-left: 50px;
+}
+.radiogroup{
+  display: flex;
+  margin-top: 20px;
+}
+.PUNchange{
+  display: flex;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  
+} 
+.PUNchange .ui.input.cp-input{
+  padding-top: 0;
+  height: 35px;
+  margin-right: 15px;
+}
+.SavePayment{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.payment-broker-title{
+  padding-top: 10px;
+  margin-right: 10px;
+}
+.paymentType{
+  margin-left: 25px;
+}
